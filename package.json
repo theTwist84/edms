@@ -7,11 +7,6 @@
     "name": "emoose",
     "name": "theTwister"
   }],
-  "license": "AGPL-3.0",
-  "scripts":{
-    "start": "node server.js"
-  },
-  "main": "server.js"
   "repository": {
     "type" : "git",
     "url" : "https://github.com/theTwist84/edms"
@@ -24,5 +19,9 @@
     "request": ">=2.58.0",
     "async": ">=1.2.1",
     "body-parser": ">=1.13.1"
-  }
+  }  "license": "AGPL-3.0",
+  "scripts":{
+    "start": "node server.js"
+  },
+  "main": "server.js"
 }
