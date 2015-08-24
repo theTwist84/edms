@@ -1,0 +1,21 @@
+{
+  "name": "ElDewrito-MasterServer",
+  "version": "1.0.0",
+  "description": "A master server implementation",
+  "main": "server.js",
+  "author": "emoose",
+  "license": "AGPL-3.0",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/theTwist84/edms"
+  },
+  "dependencies": {
+    "express": ">=4.12.3",
+    "hiredis": ">=0.4.0",
+    "mocha": ">=2.2.1",
+    "redis": ">=0.12.1",
+    "request": ">=2.58.0",
+    "async": ">=1.2.1",
+    "body-parser": ">=1.13.1"
+  }
+}
