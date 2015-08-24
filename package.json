@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A master server implementation",
   "author": "emoose",
+  "license": "AGPL-3.0",
   "contributers": [
     {
       "name": "emoose",
@@ -21,7 +22,7 @@
     "request": ">=2.58.0",
     "async": ">=1.2.1",
     "body-parser": ">=1.13.1"
-  }"license": "AGPL-3.0",
+  }
   "scripts": {
     "start": "node server.js"
   },
