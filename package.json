@@ -10,6 +10,10 @@
       "name": "theTwister"
     }
   ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/theTwist84/edms"
@@ -23,8 +27,4 @@
     "async": ">=1.2.1",
     "body-parser": ">=1.13.1"
   }
-  "scripts": {
-    "start": "node server.js"
-  },
-  "main": "server.js"
 }
