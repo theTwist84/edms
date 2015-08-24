@@ -2,9 +2,16 @@
   "name": "ElDewrito-MasterServer",
   "version": "1.0.0",
   "description": "A master server implementation",
-  "main": "server.js",
   "author": "emoose",
+  "contributers":[{
+    "name": "emoose",
+    "name": "theTwister"
+  }],
   "license": "AGPL-3.0",
+  "scripts":{
+    "start": "node server.js"
+  },
+  "main": "server.js"
   "repository": {
     "type" : "git",
     "url" : "https://github.com/theTwist84/edms"
